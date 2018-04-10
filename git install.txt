@@ -1,0 +1,22 @@
+1.安装Git 
+2.运行只运行一次即设置了全局变量
+Git global setup
+git config --global user.name "yu.liu"
+git config --global user.email "yu.liu@591hx.com"
+3.在自已的工作目录中，运行git bash 下载代码
+4.git clone https://git.tgw99.cc/tgw_quantity/tq_back.git
+
+
+
+
+
+
+1. 配置：git config xxxxxx
+2. git clone "远程仓库url"
+3. 新建分支： git branch new_branch_name master
+4. checkout new branch : git checkout new_branch_name
+5. 改代码
+6. git add *
+7. 提交修改到本地仓库： git commit -m "日志"
+8 提交修改到远程仓库： git push origin new_branch_name 
+9 提交merge request: 在网页上提交
